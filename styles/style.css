@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4,
+h5 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.main-head {
+  width: 95%;
+  margin: 0 0 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  min-height: 10vh;
+  width: 60%;
+  flex-wrap: wrap;
+}
+nav .logo {
+  display: flex;
+  justify-content: felx-start;
+  align-items: center;
+  flex-direction: row;
+  flex: 1 1 10rem;
+}
+nav .logo h1 {
+  margin: 2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex: 1 1 40rem;
+}
+
+.intro {
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.intro h2 {
+  display: inline-block;
+  font-size: 8rem;
+  padding-top: 2rem;
+  background: linear-gradient(#38d39f, #38a4d3);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.intro h3 {
+  font-size: 6rem;
+  padding: 2rem 2rem 2rem 0rem;
+}
+.intro p {
+  padding-top: 2rem;
+  color: #2c2c2c;
+}
+
+.splash {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 110%;
+  z-index: -1;
+}
+
+.intro-special {
+  margin-top: 4rem;
+}
+.intro-special a {
+  margin-right: 5rem;
+}
+
+.active {
+  background: #2c2c2c;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
+
+.intro-text, .intro-images {
+  flex: 1 1 40rem;
+}/*# sourceMappingURL=style.css.map */
