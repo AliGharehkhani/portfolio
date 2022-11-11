@@ -70,3 +70,48 @@ nav{
 .intro-text,.intro-images{
     flex: 1 1 40rem;
 }
+
+#plant-left{
+    animation: plant 1.5s ease infinite alternate;
+}
+
+#plant-right{
+    animation: plant 1.5s ease infinite alternate 0.5s;
+}
+
+#me{
+animation: me 1s ease infinite alternate;
+transform-origin: bottom ;
+}
+#clock-arrow{
+    animation: clock 1.5s infinite linear;
+    transform-box: fill-box;
+    transform-origin: bottom;
+}
+
+@keyframes me{
+    from{
+        transform: rotatez(-5deg);
+    }
+    to{
+        transform: rotatez(5deg);
+    }
+}
+
+@keyframes plant{
+    from{
+        transform: translateY(0%);
+    }
+    to{
+        transform: translateY(-30%);
+    }
+}
+
+@keyframes clock{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
