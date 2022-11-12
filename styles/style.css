@@ -264,6 +264,27 @@ nav ul {
   background: rgb(51, 105, 107);
 }
 
+footer {
+  background: #154353;
+  color: white;
+  min-height: 10vh;
+  padding: 0% 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+footer ul {
+  flex: 1 1 40rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+footer h4 {
+  flex: 1 1 40rem;
+}
+
 @media screen and (max-width: 1332px) {
   html {
     font-size: 53%;
@@ -322,5 +343,9 @@ nav ul {
   .elena img, .travelly img {
     width: 100%;
     height: 100%;
+  }
+  form {
+    padding: 0rem;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
