@@ -96,7 +96,7 @@ nav ul {
   padding-top: 2rem;
   background: linear-gradient(#38d39f, #38a4d3);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .intro h3 {
@@ -130,29 +130,30 @@ nav ul {
   border-radius: 2rem;
 }
 
-.intro-text, .intro-images {
+.intro-text,
+.intro-images {
   flex: 1 1 40rem;
 }
 
 #plant-left {
   -webkit-animation: plant 1.5s ease infinite alternate;
-          animation: plant 1.5s ease infinite alternate;
+  animation: plant 1.5s ease infinite alternate;
 }
 
 #plant-right {
   -webkit-animation: plant 1.5s ease infinite alternate 0.5s;
-          animation: plant 1.5s ease infinite alternate 0.5s;
+  animation: plant 1.5s ease infinite alternate 0.5s;
 }
 
 #me {
   -webkit-animation: me 1s ease infinite alternate;
-          animation: me 1s ease infinite alternate;
+  animation: me 1s ease infinite alternate;
   transform-origin: bottom;
 }
 
 #clock-arrow {
   -webkit-animation: clock 1.5s infinite linear;
-          animation: clock 1.5s infinite linear;
+  animation: clock 1.5s infinite linear;
   transform-box: fill-box;
   transform-origin: bottom;
 }
@@ -221,7 +222,8 @@ nav ul {
   margin: 5rem;
 }
 
-.travelly, .elena {
+.travelly,
+.elena {
   flex: 1 1 40rem;
 }
 
@@ -337,10 +339,12 @@ footer h4 {
   .intro-socail a {
     margin: 2rem;
   }
-  .elena, .travelly {
+  .elena,
+  .travelly {
     flex: 1 1 50rem;
   }
-  .elena img, .travelly img {
+  .elena img,
+  .travelly img {
     width: 100%;
     height: 100%;
   }
@@ -348,4 +352,4 @@ footer h4 {
     padding: 0rem;
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
